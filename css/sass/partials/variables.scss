@@ -1,0 +1,43 @@
+@import url("//hello.myfonts.net/count/34d1f4");
+@font-face {font-family: 'Brother-1816';font-style: normal;font-weight: 300;src: url('../webfonts/34D1F4_0_0.eot');src: url('../webfonts/34D1F4_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/34D1F4_0_0.woff2') format('woff2'),url('../webfonts/34D1F4_0_0.woff') format('woff'),url('../webfonts/34D1F4_0_0.ttf') format('truetype'),url('../webfonts/34D1F4_0_0.svg#wf') format('svg');}
+@font-face {font-family: 'Brother-1816';font-style: normal;font-weight: 400;src: url('../webfonts/34D1F4_1_0.eot');src: url('../webfonts/34D1F4_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/34D1F4_1_0.woff2') format('woff2'),url('../webfonts/34D1F4_1_0.woff') format('woff'),url('../webfonts/34D1F4_1_0.ttf') format('truetype'),url('../webfonts/34D1F4_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'Brother-1816';font-style: normal;font-weight: 700;src: url('../webfonts/34D1F4_2_0.eot');src: url('../webfonts/34D1F4_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/34D1F4_2_0.woff2') format('woff2'),url('../webfonts/34D1F4_2_0.woff') format('woff'),url('../webfonts/34D1F4_2_0.ttf') format('truetype'),url('../webfonts/34D1F4_2_0.svg#wf') format('svg');}
+
+
+
+
+
+//cool
+$bg: #ebedff;
+$bg-dead: #c8cded;
+$bg-border: #abb3d8;
+$white: #fff;
+$white-trans: rgba(255, 255, 255, 0.6);
+$light-purple: #b5b5f7;
+$black: #333;
+$grey: #999;
+$light-grey: #515168;
+
+
+
+// TYPE
+$sans: 'Montserrat', sans-serif;
+$p: 'Brother-1816', sans-serif;
+$light: 200;
+$reg: 400;
+$bold: 700;
+
+$supersmall: 0.75em;
+$small: 0.9em;
+$medium: 1.1em;
+$large: 3em;
+$big: 4em;
+$callout: 1.25em;
+$psize: 1em;
+$header: 5em;
+
+
+// BREAKPOINTS
+$breakpoint-large: 1200px;
+$breakpoint-medium: 840px;
+$breakpoint-small: 460px;

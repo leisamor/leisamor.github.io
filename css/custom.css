@@ -1,0 +1,329 @@
+@import url("//hello.myfonts.net/count/34d1f4");
+@font-face {
+  font-family: 'Brother-1816';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../webfonts/34D1F4_0_0.eot");
+  src: url("../webfonts/34D1F4_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/34D1F4_0_0.woff2") format("woff2"), url("../webfonts/34D1F4_0_0.woff") format("woff"), url("../webfonts/34D1F4_0_0.ttf") format("truetype"), url("../webfonts/34D1F4_0_0.svg#wf") format("svg"); }
+@font-face {
+  font-family: 'Brother-1816';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/34D1F4_1_0.eot");
+  src: url("../webfonts/34D1F4_1_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/34D1F4_1_0.woff2") format("woff2"), url("../webfonts/34D1F4_1_0.woff") format("woff"), url("../webfonts/34D1F4_1_0.ttf") format("truetype"), url("../webfonts/34D1F4_1_0.svg#wf") format("svg"); }
+@font-face {
+  font-family: 'Brother-1816';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../webfonts/34D1F4_2_0.eot");
+  src: url("../webfonts/34D1F4_2_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/34D1F4_2_0.woff2") format("woff2"), url("../webfonts/34D1F4_2_0.woff") format("woff"), url("../webfonts/34D1F4_2_0.ttf") format("truetype"), url("../webfonts/34D1F4_2_0.svg#wf") format("svg"); }
+body {
+  background: #ebedff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #333; }
+
+#header {
+  width: 100vw;
+  height: 80vh;
+  background: url("../images/header.jpg") center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1; }
+  #header:before {
+    content: '';
+    position: absolute;
+    height: 80vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #21D4FD, #B721FF);
+    opacity: .6; }
+
+.headline {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 25vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 40vw;
+  height: 25vh;
+  line-height: 1em;
+  font-size: 4em; }
+  @media (max-width: 840px) {
+    .headline {
+      font-size: 3em;
+      top: 25vh;
+      width: 60vw; } }
+  @media (max-width: 460px) {
+    .headline {
+      font-size: 3em;
+      top: 25vh;
+      width: 85vw; } }
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+  nav ul {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px auto; }
+    nav ul li {
+      list-style: none;
+      box-sizing: border-box;
+      margin-right: 25px;
+      position: relative;
+      float: right; }
+      nav ul li:first-child {
+        float: left;
+        margin-left: 25px; }
+      nav ul li a {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        font-weight: 400;
+        transition: all ease-out(0.3 0.1);
+        box-sizing: border-box; }
+        nav ul li a::after {
+          height: 2px;
+          width: 100%;
+          background: white;
+          content: "";
+          position: absolute;
+          left: 0px;
+          bottom: -5px;
+          transform: scaleX(0);
+          transition: 0.3s; }
+        nav ul li a:hover {
+          color: #fff; }
+          nav ul li a:hover::after {
+            transform: scaleX(1); }
+
+.container {
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(5, 12, 63, 0.2), 0 15px 12px rgba(5, 12, 63, 0.15); }
+
+.logo {
+  display: block;
+  background: url("../images/logo.svg");
+  width: 175px;
+  height: 175px;
+  margin: 30px auto 0px auto; }
+
+#services {
+  background: url("../images/services.jpg") center center no-repeat;
+  background-size: cover;
+  margin: 40px auto 50px auto; }
+
+#contact {
+  background: url("../images/contact.jpg") center center no-repeat;
+  background-size: cover;
+  margin: 0 auto 30px auto; }
+
+.titlebacking {
+  width: 100%;
+  height: 400px;
+  position: relative; }
+  .titlebacking:before {
+    content: '';
+    position: absolute;
+    height: 400px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #4970EA, #B721FF);
+    opacity: .7; }
+  .titlebacking h1 {
+    z-index: 10;
+    position: absolute;
+    top: 130px;
+    width: 400px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    font-size: 5em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px 10px;
+    border: 1px solid #fff; }
+    @media (max-width: 840px) {
+      .titlebacking h1 {
+        font-size: 4em;
+        top: 150px;
+        width: 300px; } }
+    @media (max-width: 460px) {
+      .titlebacking h1 {
+        font-size: 3em;
+        top: 150px;
+        width: 250px; } }
+
+.service {
+  padding: 0;
+  margin-bottom: 40px; }
+  .service h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 0 0 5px 0; }
+  .service h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px; }
+  .service h6 {
+    text-align: center;
+    color: #999; }
+    @media (max-width: 460px) {
+      .service h6 {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #c8cded; }
+        .service h6.last {
+          border: none; } }
+  .service .limited {
+    border-bottom: 2px solid #B1B0EA; }
+  .service .standard {
+    border-bottom: 2px solid #524EF4; }
+  .service .premium {
+    border-bottom: 2px solid #FF1D6F; }
+  .service ul {
+    margin: 30px 0 15px 0;
+    width: 100%; }
+    .service ul li {
+      list-style-type: none;
+      background: #c8cded;
+      margin: 0;
+      padding: 8px 15px 8px 15px;
+      font-family: "Brother-1816", sans-serif;
+      font-size: 0.9em;
+      font-weight: 200;
+      border-bottom: 1px solid #abb3d8; }
+      .service ul li.active {
+        background: #ebedff; }
+      .service ul li span {
+        float: right; }
+        .service ul li span.free {
+          font-weight: 700; }
+      @media (max-width: 840px) {
+        .service ul li {
+          font-size: 0.75em;
+          font-weight: 400; } }
+      @media (max-width: 460px) {
+        .service ul li {
+          font-size: 0.9em;
+          font-weight: 400; } }
+
+.callout {
+  display: table;
+  margin: 0 auto 30px auto;
+  color: #b5b5f7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-bottom: 5px; }
+  @media (max-width: 460px) {
+    .callout {
+      margin: 0 30px 30px 30px; } }
+
+p {
+  font-family: "Brother-1816", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 0.5px;
+  color: #999;
+  margin: 20px auto 40px auto;
+  display: block;
+  width: 80%;
+  max-width: 520px; }
+  @media (max-width: 460px) {
+    p {
+      text-align: justify;
+      line-height: 1.75em; } }
+
+.cta {
+  display: table;
+  background-image: linear-gradient(to right, #7F45DB, #4970EA);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto 30px auto;
+  padding: 10px 20px;
+  border-radius: 25px;
+  opacity: 0.7;
+  transition: ease-out 0.2s; }
+  .cta:hover {
+    opacity: 1;
+    color: #fff;
+    transform: scale(1.03); }
+
+.iconspacer {
+  margin-left: 5px; }
+
+form {
+  background: #ebedff;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+  padding: 20px 0; }
+  form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 15px auto 15px auto; }
+    form input::placeholder, form textarea::placeholder {
+      color: #abb3d8; }
+  form textarea {
+    height: 200px; }
+  form input[type=submit] {
+    margin: 20px auto 0 auto;
+    max-width: 350px;
+    background-image: linear-gradient(to right, #7F45DB, #4970EA);
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 400;
+    display: table;
+    border: none;
+    border-radius: 25px;
+    opacity: 0.7;
+    transition: ease-out 0.2s; }
+    form input[type=submit]:hover {
+      opacity: 1;
+      color: #fff;
+      transform: scale(1.03); }
+
+.colophon {
+  font-size: 0.75em;
+  color: #999;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto 20px auto;
+  box-sizing: border-box; }
+  .colophon span {
+    float: right; }
+  @media (max-width: 1200px) {
+    .colophon {
+      padding: 0 25px; } }
+
+/*# sourceMappingURL=custom.css.map */
