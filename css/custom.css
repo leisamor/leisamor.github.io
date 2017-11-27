@@ -43,6 +43,7 @@ body {
     left: 0;
     background-image: linear-gradient(to bottom right, #21D4FD, #B721FF);
     opacity: .6; }
+  
 
 .headline {
   font-family: "Montserrat", sans-serif;
@@ -69,45 +70,28 @@ body {
       top: 25vh;
       width: 85vw; } }
 
-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0; }
-  nav ul {
-    width: 100%;
-    max-width: 1024px;
-    margin: 20px auto; }
-    nav ul li {
-      list-style: none;
-      box-sizing: border-box;
-      margin-right: 25px;
-      position: relative;
-      float: right; }
-      nav ul li:first-child {
-        float: left;
-        margin-left: 25px; }
-      nav ul li a {
-        color: rgba(255, 255, 255, 0.6);
-        text-decoration: none;
-        font-weight: 400;
-        font-size: 25px;
-        transition: all ease-out(0.3 0.1);
-        box-sizing: border-box; }
-        nav ul li a::after {
-          height: 2px;
-          width: 100%;
-          background: white;
-          content: "";
-          position: absolute;
-          left: 0px;
-          bottom: -5px;
-          transform: scaleX(0);
-          transition: 0.3s; }
-        nav ul li a:hover {
-          color: #fff; }
-          nav ul li a:hover::after {
-            transform: scaleX(1); }
+.navbar-default {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+  border: none;
+  margin-bottom: 0;
+}
+.navbar-brand, .navbar-nav li a {
+  line-height: 28px;
+  padding: 45px;
+  margin-right: 20px;
+}
+.navbar-default .navbar-brand  {
+  color: #5C5C5C;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-default .navbar-nav li a {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
 .container {
   background: #fff;
