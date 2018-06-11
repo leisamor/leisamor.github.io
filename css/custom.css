@@ -305,6 +305,12 @@ form {
   .phonecontact span {
     color: #b5b5f7; }
 
+#paynow {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto 0px auto; }
+
 .colophon {
   font-size: 0.75em;
   color: #999;
