@@ -87,13 +87,6 @@ body {
   height: 175px;
   margin: 30px auto 0px auto; }
 
-  .photo {
-    display: block;
-    background: url("../images/photo.jpg");
-    width: 366px;
-    height: 375px;
-    margin: 30px auto 0px auto; }
-
 #services {
   background: url("../images/services.jpg") center center no-repeat;
   background-size: cover;
